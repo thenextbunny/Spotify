@@ -1,0 +1,55 @@
+/* Layout */
+html, body, #home {
+	height: 100%;
+}
+
+body {
+	background: url(../pics/capa.png),
+				url(../pics/ruido.png),
+				linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+}
+
+/* nav */
+nav {
+	line-height: 40px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #FFF;}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #169b45; 
+	font-weight: bold;}
+
+.navbar-light .navbar-toggler {
+	color: rgba(255, 255, 255, 0.1);
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+.div {
+	width: 1px;
+	margin: 12px 15px;
+	background: #FFF;}
+
+.div2 {
+	border-bottom: 1px solid white; 
+	width: 30px; 
+	margin: 10px 0px;}
+
+/*capa*/
+#home {
+	text-align: center;}
+
+#home h1 {
+	font-weight: bold;
+	font-size: 500%;
+	color: #1ed760;}
+#home h1.eve {}
+
+/*media queries*/
+@media (min-width: 992px) {
+	#home h1.list {margin-left: -100px; font-size: 800%;}
+	#home h1.eve {margin-right: -100px; font-size: 800%; margin-top: -30px;}
+}
