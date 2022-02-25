@@ -61,21 +61,21 @@ nav {
 
 .btn-custom:hover {
 	transform: scale(1.04);
-	color: #FFF;
+	color:  #FFF;
 }
-
-
 
 
 /*media queries*/
 	/*// Extra small devices (portrait phones, less than 576px)*/
 	@media (max-width: 575.98px) {
 		#home h1 {font-size: 4em}
+		#home h1.eve {margin-top: -19px;}
 	}
 
 	/*// Small devices (landscape phones, 576px and up)*/
 	@media (min-width: 576px) and (max-width: 767.98px) {
 		#home h1 {font-size: 5em}
+		#home h1.eve {margin-top: -19px;}
 	}
 
 	/*// Medium devices (tablets, 768px and up)*/
