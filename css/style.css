@@ -8,6 +8,7 @@ body {
 				url(../pics/ruido.png),
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
+	font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
 /* nav */
@@ -21,7 +22,7 @@ nav {
 
 .navbar-light .navbar-nav .nav-link:hover {
 	color: #169b45; 
-	font-weight: bold;}
+	transform: scale(1.05);}
 
 .navbar-light .navbar-toggler {
 	color: rgba(255, 255, 255, 0.1);
@@ -38,28 +39,47 @@ nav {
 	width: 30px; 
 	margin: 10px 0px;}
 
-/*capa*/
+/*principal*/
 #home {
 	text-align: center;}
 
 #home h1 {
 	font-weight: bold;
 	color: #1ed760;}
-#home h1.eve {}
+#home p {
+	padding: 15px;
+	color: #FFF;}
+
+.btn-custom {
+	color: #FFF;
+	border-radius: 80px;
+	transition: background 0.4s, color 0.4s;
+	text-transform: uppercase;
+	background: #1ed760;
+	font-size: 16px;
+}
+
+.btn-custom:hover {
+	transform: scale(1.04);
+	color: #FFF;
+}
+
+
+
 
 /*media queries*/
-/*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
-	#home h1 {font-size: 400%;}
-}
+	/*// Extra small devices (portrait phones, less than 576px)*/
+	@media (max-width: 575.98px) {
+		#home h1 {font-size: 4em}
+	}
 
-/*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767.98px) {
-	#home h1 {font-size: 600%;}
-}
+	/*// Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) and (max-width: 767.98px) {
+		#home h1 {font-size: 5em}
+	}
 
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-	#home h1.list {margin-left: -100px; font-size: 800%;}
-	#home h1.eve {margin-right: -100px; font-size: 800%; margin-top: -30px;}
-}
+	/*// Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) {
+		#home h1.list {margin-left: -100px; font-size: 7em}
+		#home h1.eve {margin-right: -100px; font-size: 7em; margin-top: -30px;}
+	}
