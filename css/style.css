@@ -169,6 +169,6 @@ footer a:hover {
 	}
 	/*// X-Large devices (large desktops, 1200px and up)*/
 	@media (min-width: 1200px) {
-		#home h1.list {font-size: 8em; margin-left: -100px;}
-		#home h1.eve {font-size: 8em; margin-right: -100px; margin-top: -30px;}
+		#home h1.list {font-size: 8em; margin-left: -170px;}
+		#home h1.eve {font-size: 8em; margin-right: -170px; margin-top: -50px;}
 	}
