@@ -13,7 +13,7 @@ body {
 				url(../pics/ruido.png),
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
-	font-family: spotify-circular, Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 }
 /*geral*/
 h2 {
@@ -24,6 +24,12 @@ h2 {
 
 h3 {
 	font-size: 1.6em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h4 {
+	font-size: 1.3em;
 	font-weight: 700;
 	letter-spacing: -0.04em;
 }
@@ -90,7 +96,7 @@ nav {
 /*services*/
 #services {
 	background: #FFF;
-	padding: 30px 0 0 0;
+	padding: 30px 0;
 }
 #services img {padding-bottom: 25px;}
 
@@ -98,9 +104,7 @@ nav {
 #services h3 {color: #9860e6;}
 
 /*resources*/
-#resources {
-	padding: 30px 0 0 30px;
-}
+#resources {padding: 30px 0;}
 #resources h2 {color: #9bf0e1;}
 #resources h3 {color: #6fd1cc;}
 #resources p {color: #FFF;}
