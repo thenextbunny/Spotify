@@ -44,12 +44,22 @@ nav {
 
 #home h1 {
 	font-weight: bold;
-	font-size: 500%;
 	color: #1ed760;}
 #home h1.eve {}
 
 /*media queries*/
-@media (min-width: 992px) {
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	#home h1 {font-size: 400%;}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#home h1 {font-size: 600%;}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
 	#home h1.list {margin-left: -100px; font-size: 800%;}
 	#home h1.eve {margin-right: -100px; font-size: 800%; margin-top: -30px;}
 }
