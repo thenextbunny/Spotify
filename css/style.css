@@ -76,13 +76,13 @@ nav {
 	color: #FFF;}
 
 .btn-custom {
-	color: #FFF;
+	color: rgba(255, 255, 255, 1);
 	border-radius: 80px;
 	-webkit-transition: background 0.4s, color 0.4s;
 	-o-transition: background 0.4s, color 0.4s;
 	transition: background 0.4s, color 0.4s;
 	text-transform: uppercase;
-	background: #1ed760;
+	background: rgba(30,215,96,0.9);
 	font-size: 16px;
 }
 
@@ -90,7 +90,7 @@ nav {
 	-webkit-transform: scale(1.04);
 	    -ms-transform: scale(1.04);
 	        transform: scale(1.04);
-	color:  #FFF;
+	color: #FFF;
 }
 
 /*services*/
@@ -170,5 +170,5 @@ footer a:hover {
 	/*// X-Large devices (large desktops, 1200px and up)*/
 	@media (min-width: 1200px) {
 		#home h1.list {font-size: 8em; margin-left: -170px;}
-		#home h1.eve {font-size: 8em; margin-right: -170px; margin-top: -50px;}
+		#home h1.eve {font-size: 8em; margin-right: -170px; margin-top: -40px;}
 	}
