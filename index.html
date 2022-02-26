@@ -23,43 +23,41 @@
 
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-md fixed-top navbar-light">
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
           <!-- Logo -->
           <a class="nav-brand" href="index.html">
             <img src="pics/spotify.svg" width="142" alt="Spotify">
           </a>
-
-          <!-- burguer menu-->
+          <!-- Burguer -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars text-white fa-lg"></i>
+            <i class="fa-solid fa-bars fa-lg text-white"></i>
           </button>
-
-          <!-- Menus-->
-          <div class="collapse navbar-collapse justify-content-end" id="menu">
+          <!-- Menus -->
+          <div class="navbar-collapse collapse justify-content-end" id="menu">
             <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="">Premium</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Support</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Download</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Premium</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
               <li class="nav-item nav-div1 d-none d-md-block"></li>
               <li class="nav-item nav-div2 d-md-none"></li>
-              <li class="nav-item"><a class="nav-link" href="">Sign up</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Log in</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Sign up</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Log in</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
 
-    <section id="main" class="d-flex">
+    <section class="d-flex" id="main">
       <div class="container align-self-center">
         <div class="row">
           <div class="col-md-12">
             <h1 class="main-t1">Listening is</h1>
             <h1 class="main-t2">everything</h1>
             <p class="lead">Millions of songs and podcasts. No credit card needed.</p>
-            <a class="btn btn-lg btn-custom" href="" data-title="Knockout">Get Spotify</a>
+            <a class="btn btn-lg btn-custom" href="#">Get Spotify</a>  
           </div>
         </div>
       </div>
@@ -68,23 +66,23 @@
     <section id="second">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-1">
+         <div class="col-lg-6 order-2 order-sm-2 order-lg-1">
             <div class="row">
-              <div class="col-6 col-md-6">
+              <div class="col-6">
                 <img class="img-fluid" src="pics/img1.jpg">
               </div>
-              <div class="col-6 col-md-6">
+              <div class="col-6">
                 <img class="img-fluid" src="pics/img2.jpg">
               </div>
-              <div class="col-6 col-md-6">
+              <div class="col-6">
                 <img class="img-fluid" src="pics/img3.jpg">
               </div>
-              <div class="col-6 col-md-6">
+              <div class="col-6">
                 <img class="img-fluid" src="pics/img4.jpg">
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-xl-6 order-1 order-sm-1 order-md-1 order-lg-2 align-self-center">
+          <div class="col-lg-6 order-1 order-sm-1 order-lg-2 align-self-center">
              <h2>What does Spotify have?</h2>
              <h3>Songs</h3>
              <p class="lead">Spotify has millions of songs. Listen to your favorite sounds, discover new music and bring them together in one place.</p>
@@ -102,7 +100,7 @@
     <section id="third">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 align-self-center">
+          <div class="col-md-6 col-lg-4 col-xl-6 align-self-center">
             <h2>Practical and fast</h2>
             <h3>Search</h3>
             <p class="lead">Already know what you want to hear? Just search and press play.</p>
@@ -113,13 +111,16 @@
             <h3>Discover</h3>
             <p class="lead">Enjoy new music every Monday with a playlist customized for you or just relax and enjoy one of the radio stations.</p>
           </div>
-          <div class="col-lg-8 d-none d-lg-block">
-            <div class="row rot">
+          <div class="col-md-6 d-none d-md-block d-lg-none">
+            <img class="img-fluid" src="pics/iphone3.png">
+          </div>
+          <div class="col-md-6 col-lg-8 col-xl-6 d-none d-lg-block">
+            <div class="row rotate">
               <div class="col-lg-6">
                 <img class="img-fluid" src="pics/iphone1.png">
               </div>
               <div class="col-lg-6">
-                <img class="i2 img-fluid" src="pics/iphone2.png">
+                <img class="img-fluid" src="pics/iphone2.png">
               </div>
             </div>
           </div>
@@ -131,7 +132,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-lg-2">
-            <a href="index.html"><img src="pics/spotify.svg" width="150"></a>
+            <img src="pics/spotify.svg" width="150">
           </div>
           <div class="col-md-2 col-lg-2">
             <h6>Company</h6>
@@ -169,7 +170,7 @@
         </div>
       </div>
     </footer>
-
+  
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
