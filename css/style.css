@@ -108,6 +108,9 @@ nav {
 #resources h2 {color: #9bf0e1;}
 #resources h3 {color: #6fd1cc;}
 #resources p {color: #FFF;}
+#resources img {
+	margin-bottom: -100px;
+}
 
 .rot {
 	-webkit-transform: rotate(30deg);
