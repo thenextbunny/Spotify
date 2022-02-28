@@ -19,22 +19,25 @@ body {
 }
 
 /* All */
+p, h2, h3, h4 {
+	cursor: default;
+}
+
+h2, h3, h4 {letter-spacing: 0.04em;}
+
 h2 {
 	font-size: 1.9em;
 	font-weight: 700;
-	letter-spacing: -0.04em;
 }
 
 h3 {
 	font-size: 1.6em;
 	font-weight: 700;
-	letter-spacing: -0.04em;
 }
 
 h4 {
 	font-size: 1.3em;
 	font-weight: 700;
-	letter-spacing: -0.04em;
 }
 
 li {
@@ -49,6 +52,7 @@ nav {
 
 .navbar-light .navbar-nav .nav-link {
 	color: #FFF;
+	text-align: center;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -71,8 +75,10 @@ nav {
 
 .nav-div2 {
 	border-bottom: 1px solid white; 
-	width: 30px; 
-	margin: 10px 0px;
+	width: 100px; 
+	margin: 10px auto;
+	align-content: center;
+	text-align: center;
 }
 
 /* Main */
@@ -89,7 +95,6 @@ nav {
 #main p {
 	padding: 15px;
 	color: #FFF;
-	cursor: default;
 }
 
 .btn-custom {
@@ -131,7 +136,8 @@ nav {
 /* Third - resources */
 #third {
 	background: rgba(0, 0, 0, 0.3);
-	padding: 30px 0;
+	padding: 30px 0;7
+	overflow-x: hidden;
 }
 
 #third h2 {
