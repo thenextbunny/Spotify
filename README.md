@@ -1,6 +1,6 @@
 # Spotify
 
-<p>Este repositório contém os arquivos da recriação do site do Spotify com o uso de HTML, CSS e Bootstrap.</p>
+<p>Este repositório contém os arquivos da clone do site do Spotify com o uso de HTML, CSS e Bootstrap.</p>
 
 <h4>Página inicial</h4>
 
