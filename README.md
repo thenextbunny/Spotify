@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><img src="./assets/images/logo/spotify.svg" alt="Logo do Spotify"></h1>
+  <h1><img src="https://logodownload.org/wp-content/uploads/2016/09/Spotify-logo.png" alt="Logo do Spotify" width="300px"></h1>
 </div>
 <div>
   <h3>Sobre o projeto</h3>
