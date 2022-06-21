@@ -1,9 +1,20 @@
-# Spotify
+<div align="center">
+  <h1><img src="./assets/images/logo/spotify.svg" alt="Logo do Spotify"></h1>
+</div>
+<div>
+  <h3>Sobre o projeto</h3>
+  <p>O projeto deste repositório é o clone de uma antiga página inicial do Spotify.</p>
 
-<p>Este repositório contém os arquivos da clone do site do Spotify com o uso de HTML, CSS e Bootstrap.</p>
-
-<h4>Página inicial</h4>
-
-![image](https://user-images.githubusercontent.com/99208505/161834043-76053d01-cd80-4bd1-971b-2363d53e08e1.png)
-
-[Clique aqui para visualizar o projeto completo](https://thenextbunny.github.io/Spotify/)
+  ### [Clique aqui para visualizar a página final do projeto](https://thenextbunny.github.io/spotify/)
+  
+  <h3>Linguagens utilizadas</h3>
+  <ul>
+    <li>Bootstrap (versão 5.1.3)</li>
+    <li>CSS</li>
+    <li>HTML</li>
+  </ul>
+  
+  <h3>Imagens</h3>
+  <h5>Desktop</h5>
+  <img src="https://user-images.githubusercontent.com/99208505/161834043-76053d01-cd80-4bd1-971b-2363d53e08e1.pngg" alt="Screenshot da página inicial do projeto para desktop" width="100%">
+</div>

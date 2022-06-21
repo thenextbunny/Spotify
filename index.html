@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,179 +9,230 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
     <!-- Style CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
     <!-- Font Awesome-->
     <script src="https://kit.fontawesome.com/37f54710bc.js" crossorigin="anonymous"></script>
-
-    <!-- HTML5Shiv -->
-    <!--[if lt IE 9]>
-    <script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <![endif]-->
     
     <!-- Title and icon -->
     <title>Spotify - listening is everything</title>
-    <link rel="icon" href="pics/favicon.png">
+    <link rel="icon" href="./assets/images/favicon/favicon.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+            <!-- Logo -->
+            <a class="nav-brand" href="index.html">
+                <img src="./assets/images/logo/spotify.svg" width="142" alt="Spotify">
+            </a>
 
-  </head>
-  <body>
-    <header class="fixed-top">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container">
-          <!-- Logo -->
-          <a class="nav-brand" href="index.html">
-            <img src="pics/spotify.svg" width="142" alt="Spotify">
-          </a>
-          <!-- Burguer -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars fa-lg text-white"></i>
-          </button>
-          <!-- Menus -->
-          <div class="navbar-collapse collapse justify-content-end" id="menu">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="#">Premium</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
-              <li class="nav-item nav-div1 d-none d-md-block"></li>
-              <li class="nav-item nav-div2 d-md-none"></li>
-              <li class="nav-item"><a class="nav-link" href="#">Sign up</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Log in</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+            <!-- Burguer -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars fa-lg text-white"></i>
+            </button>
+
+            <!-- Menus -->
+            <div class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Premium</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Download</a>
+                    </li>
+                    <li class="nav-item nav-bar-1 d-none d-md-block"></li>
+                    <li class="nav-item nav-bar-2 d-md-none"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Log in</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
 
-    <section class="d-flex" id="main">
-      <div class="container align-self-center">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="main-t1">Listening is</h1>
-            <h1 class="main-t2">everything</h1>
-            <p class="lead">Millions of songs and podcasts. No credit card needed.</p>
-            <a class="btn btn-lg btn-custom" href="#">Get Spotify</a>  
-          </div>
+    <main class="d-flex">
+        <div class="container align-self-center">
+            <div class="row">
+            <div class="col-md-12">
+                <h1><span class="h1-1">Listening is</span><span class="h1-2">everything</span></h1>
+                <p class="lead">Millions of songs and podcasts. No credit card needed.</p>
+                <a class="btn btn-lg btn-custom" href="#">Get Spotify</a>  
+            </div>
+            </div>
         </div>
-      </div>
-    </section>
+    </main>
 
     <section id="second">
-      <div class="container">
-        <div class="row">
-         <div class="col-lg-6 order-2 order-sm-2 order-lg-1">
+        <div class="container">
             <div class="row">
-              <div class="col-6">
-                <img class="img-fluid" src="pics/img1.jpg">
-              </div>
-              <div class="col-6">
-                <img class="img-fluid" src="pics/img2.jpg">
-              </div>
-              <div class="col-6">
-                <img class="img-fluid" src="pics/img3.jpg">
-              </div>
-              <div class="col-6">
-                <img class="img-fluid" src="pics/img4.jpg">
-              </div>
+                <div class="col-lg-6 order-2 order-sm-2 order-lg-1">
+                    <div class="row">
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/images/albums cover/purpose-justin-bieber.jpg" alt="Justin Bieber's Purpose studio album cover">
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/images/albums cover/lust-life-zara-larsson.jpg" alt="Cover of the song Lust Life by Zara Larsson.">
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/images/albums cover/trapsoul-bryson-tiller.jpg" alt="Trapsoul album cover by singer Bryson Tiller.">
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" src="./assets/images/albums cover/lust-life-zara-larsson.jpg" alt="Cover of the album Sit Still, Look Pretty by singer Daya.">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-6 order-1 order-sm-1 order-lg-2 align-self-center">
-             <h2>What does Spotify have?</h2>
-             <h3>Songs</h3>
-             <p class="lead">Spotify has millions of songs. Listen to your favorite sounds, discover new music and bring them together in one place.</p>
+                <div class="col-lg-6 order-1 order-sm-1 order-lg-2 align-self-center">
+                    <h2>What does Spotify have?</h2>
+                    <h3>Songs</h3>
+                    <p class="lead">Spotify has millions of songs. Listen to your favorite sounds, discover new music and bring them together in one place.</p>
 
-             <h3>Playlists</h3>
-             <p class="lead">On Spotify you'll find a playlist for every moment. All made for every taste and by those who understand music.</p>
+                    <h3>Playlists</h3>
+                    <p class="lead">On Spotify you'll find a playlist for every moment. All made for every taste and by those who understand music.</p>
 
-             <h3>New Releases</h3>
-             <p class="lead">Listen to new releases of songs and albums with few clicks and in the best quality.</p>
-          </div>
+                    <h3>New Releases</h3>
+                    <p class="lead">Listen to new releases of songs and albums with few clicks and in the best quality.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <section id="third">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4 col-xl-4 align-self-center">
-            <h2>Practical and fast</h2>
-            <h3>Search</h3>
-            <p class="lead">Already know what you want to hear? Just search and press play.</p>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-4 align-self-center">
+                <h2>Practical and fast</h2>
+                <h3>Search</h3>
+                <p class="lead">Already know what you want to hear? Just search and press play.</p>
 
-            <h3>Navigation</h3>
-            <p class="lead">See the new releases, what's grooving on the charts and the best playlists for your moment.</p>
+                <h3>Navigation</h3>
+                <p class="lead">See the new releases, what's grooving on the charts and the best playlists for your moment.</p>
 
-            <h3>Discover</h3>
-            <p class="lead">Enjoy new music every Monday with a playlist customized for you or just relax and enjoy one of the radio stations.</p>
-          </div>
-          <div class="col-md-6 d-none d-md-block d-lg-none">
-            <img class="img-fluid" src="pics/iphone3.png">
-          </div>
-          <div class="col-md-6 col-lg-8 col-xl-8 d-none d-lg-block">
-            <div class="row rotate">
-              <div class="col-lg-6">
-                <img class="img-fluid" src="pics/iphone1.png">
-              </div>
-              <div class="col-lg-6">
-                <img class="img-fluid" src="pics/iphone2.png">
-              </div>
+                <h3>Discover</h3>
+                <p class="lead">Enjoy new music every Monday with a playlist customized for you or just relax and enjoy one of the radio stations.</p>
             </div>
-          </div>
+            <div class="col-md-6 d-none d-md-block d-lg-none">
+                <img class="img-fluid" src="pics/iphone3.png">
+            </div>
+            <div class="col-md-6 col-lg-8 col-xl-8 d-none d-lg-block">
+                <div class="row rotate">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="./assets/images/phone/phone-1.png" alt="Image of a cell phone playing the song 'Let's Talk About Gender Baby' by singer Planningtorock on Spotify">
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="./assets/images/phone/phone-2.png" alt="Image of a phone in the 'Discover Weekly' playlist on Spotify">
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-lg-2">
-            <img src="pics/spotify.svg" width="150">
-          </div>
-          <div class="col-md-2 col-lg-2">
-            <h6>Company</h6>
-            <ul class="navbar-nav">
-              <li><a href="">About</a></li>
-              <li><a href="">Jobs</a></li>
-              <li><a href="">For the Record</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2 col-lg-2">
-            <h6>Communities</h6>
-            <ul class="navbar-nav">
-              <li><a href="">For Artists</a></li>
-              <li><a href="">Developers</a></li>
-              <li><a href="">Advertising</a></li>
-              <li><a href="">Investors</a></li>
-              <li><a href="">Vendors</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2 col-lg-2">
-            <h6>Usefull links</h6>
-            <ul class="navbar-nav">
-              <li><a href="">Support</a></li>
-              <li><a href="">Web Player</a></li>
-              <li><a href="">Free Mobile App</a></li>
-            </ul>
-          </div>
-          <div id="social" class="col-md-3 col-lg-4 d-flex justify-content-end">
-            <ul>
-              <li><a href=""><img src="pics/instagram.png"></a></li>
-              <li><a href=""><img src="pics/twitter.png"></a></li>
-              <li><a href=""><img src="pics/facebook.png"></a></li>
-            </ul>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-2">
+                    <img src="./assets/images/logo/spotify.svg" width="150" alt="Spotify">
+                </div>
+                <div class="col-md-2 col-lg-2">
+                    <h6>Company</h6>
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="">For the Record</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-lg-2">
+                    <h6>Communities</h6>
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="">For Artists</a>
+                        </li>
+                        <li>
+                            <a href="">Developers</a>
+                        </li>
+                        <li>
+                            <a href="">Advertising</a>
+                        </li>
+                        <li>
+                            <a href="">Investors</a>
+                        </li>
+                        <li>
+                            <a href="">Vendors</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-lg-2">
+                    <h6>Usefull links</h6>
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="">Support</a>
+                        </li>
+                        <li>
+                            <a href="">Web Player</a>
+                        </li>
+                        <li>
+                            <a href="">Free Mobile App</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="social" class="col-md-3 col-lg-4 d-flex justify-content-end">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icons/instagram.png" alt="Follow Spotify on Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icons/twitter.png" alt="Follow Spotify on Twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/icons/facebook.png" alt="Follow Spotify on Facebook">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div col-12>
+                    <ul>
+                        <li class="thenextbunny">
+                            <p>Clone made by <strong>Vitor Coelho</strong></p>
+                            <span>
+                                <a href="http://github.com/thenextbunny" target="_blank"><i class="fa-brands fa-github"></i></a>  
+                            </span>
+                            <span>
+                                <a href="https://www.linkedin.com/in/vitorcoelhot/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </span>
+                            <span>
+                                <a href="mailto:vitorcoelhosilvat@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
   
     <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
