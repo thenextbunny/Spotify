@@ -1,7 +1,6 @@
 * {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-	cursor: default;
 	margin: 0;
 	outline: 0;
 	padding: 0;
@@ -19,7 +18,13 @@ body {
 				url(../images/background/noise.png),
 				linear-gradient(50deg,#ff4169,#7c26f8);
 	background-attachment: fixed;
+	cursor: default;
 	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Links */
+a, a > img, i {
+	cursor: pointer;
 }
 
 /* Navegation bar */
