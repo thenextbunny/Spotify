@@ -16,5 +16,5 @@
   
   <h3>Imagens</h3>
   <h5>Desktop</h5>
-  <img src="https://user-images.githubusercontent.com/99208505/161834043-76053d01-cd80-4bd1-971b-2363d53e08e1.pngg" alt="Screenshot da página inicial do projeto para desktop" width="100%">
+  <img src="https://user-images.githubusercontent.com/99208505/161834043-76053d01-cd80-4bd1-971b-2363d53e08e1.png" alt="Screenshot da página inicial do projeto para desktop" width="100%">
 </div>
