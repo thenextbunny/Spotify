@@ -198,25 +198,27 @@ footer a:hover {
 
 /* My social networks */
 .thenextbunny {
-	color: #fff;
+	color: white;
     font-size: 15px;
-	line-height: 20px;
-	padding: 5px 0;
     text-align: center;
 }
 
-.thenextbunny i {
-	padding: 0 5px;
-    font-size: 30px;
-    -webkit-transition: all 1.2s;
-    -o-transition: all 1.2s;
-    transition: all 1.2s;
+.thenextbunny p {
+	margin: 0;
+	padding: 0;
 }
 
-.thenextbunny i:hover {
-    color: #1ed760;
+.thenextbunny img {
+    -webkit-filter: invert(100%) sepia(31%) saturate(0%) hue-rotate(241deg) brightness(115%) contrast(101%);
+            filter: invert(100%) sepia(31%) saturate(0%) hue-rotate(241deg) brightness(115%) contrast(101%);
+    height: 30px;
+    width: 30px;
 }
 
+.thenextbunny img:hover {
+    -webkit-filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
+            filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
+}
 /* Media Queries */
 	/* Extra small devices (portrait phones, less than 576px) */
 	@media (max-width: 575.98px) {
