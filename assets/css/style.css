@@ -218,6 +218,7 @@ footer a:hover {
     -webkit-filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
     filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
 }
+
 /* Media Queries */
 	/* Extra small devices (portrait phones, less than 576px) */
 	@media (max-width: 575.98px) {
