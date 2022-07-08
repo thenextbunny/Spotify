@@ -1,6 +1,6 @@
 * {
 	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	margin: 0;
 	outline: 0;
 	padding: 0;
@@ -57,7 +57,7 @@ nav {
 	width: 100px; 
 	margin: 10px auto;
 	-ms-flex-line-pack: center;
-	    align-content: center;
+	align-content: center;
 	text-align: center;
 }
 
@@ -67,7 +67,6 @@ main {
 	height: 90%;
 	text-align: center;
 }
-
 
 main h1 {
 	font-weight: bold;
@@ -157,8 +156,8 @@ h4 {
 
 #third .rotate {
 	-webkit-transform: rotate(30deg);
-	    -ms-transform: rotate(30deg);
-	        transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
 	padding-left: 80px;
 }
 
@@ -210,14 +209,14 @@ footer a:hover {
 
 .thenextbunny img {
     -webkit-filter: invert(100%) sepia(31%) saturate(0%) hue-rotate(241deg) brightness(115%) contrast(101%);
-            filter: invert(100%) sepia(31%) saturate(0%) hue-rotate(241deg) brightness(115%) contrast(101%);
+    filter: invert(100%) sepia(31%) saturate(0%) hue-rotate(241deg) brightness(115%) contrast(101%);
     height: 30px;
     width: 30px;
 }
 
 .thenextbunny img:hover {
     -webkit-filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
-            filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
+    filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
 }
 /* Media Queries */
 	/* Extra small devices (portrait phones, less than 576px) */
