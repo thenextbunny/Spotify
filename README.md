@@ -3,7 +3,7 @@
 </div>
 <div>
   <h3>Sobre o projeto</h3>
-  <p>O projeto deste repositório é o clone de uma antiga página inicial do Spotify.</p>
+  <p>O projeto deste repositório é o clone de uma antiga página inicial do Spotify feito com Bootstrap e é um site totalmente responsivo.</p>
 
   ### [Clique aqui para visualizar a página final do projeto](https://thenextbunny.github.io/spotify/)
   
