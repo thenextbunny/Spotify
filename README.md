@@ -7,7 +7,7 @@
 
   ### [Clique aqui para visualizar a página final do projeto](https://thenextbunny.github.io/spotify/)
   
-  <h3>Linguagens utilizadas</h3>
+  <h3>Linguagens e frameworks utilizados</h3>
   <ul>
     <li>Bootstrap (versão 5.1.3)</li>
     <li>CSS</li>
