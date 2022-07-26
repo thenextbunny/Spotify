@@ -196,25 +196,25 @@ footer a:hover {
 }
 
 /* My social networks */
-.thenextbunny {
+.tnb {
 	color: white;
     font-size: 15px;
     text-align: center;
 }
 
-.thenextbunny p {
+.tnb p {
 	margin: 0;
 	padding: 0;
 }
 
-.thenextbunny img {
+.tnb img {
     -webkit-filter: invert(100%) sepia(31%) saturate(0%) hue-rotate(241deg) brightness(115%) contrast(101%);
     filter: invert(100%) sepia(31%) saturate(0%) hue-rotate(241deg) brightness(115%) contrast(101%);
     height: 30px;
     width: 30px;
 }
 
-.thenextbunny img:hover {
+.tnb img:hover {
     -webkit-filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
     filter: invert(43%) sepia(64%) saturate(602%) hue-rotate(89deg) brightness(96%) contrast(88%);
 }
